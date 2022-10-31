@@ -56,7 +56,8 @@
           }
         },
         "then": { "required": ["seller_id", "seller_type", "name"] },
-        "else": { "required": ["seller_id", "seller_type"] }
+        "else": { "required": ["seller_id", "seller_type"] },
+        "additionalProperties": false
       }
     },
     "identifiers": {
@@ -75,7 +76,8 @@
             "type": "string"
           }
         },
-        "required": ["name", "value"]
+        "required": ["name", "value"],
+        "additionalProperties": false
       }
     },
     "contact_email": {
