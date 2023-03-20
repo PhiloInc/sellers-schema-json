@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://iabtechlab.com/sellers.schema.json",
   "title": "IAB Tech Lab Sellers.json",
   "description": "As part of a broader effort to eliminate the ability to profit from counterfeit inventory in the open digital advertising ecosystem, Sellers.json provides a mechanism to enable buyers to discover who the entities are that are either direct sellers of or intermediaries in the selling of digital advertising.",
